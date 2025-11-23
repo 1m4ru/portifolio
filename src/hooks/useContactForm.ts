@@ -19,7 +19,6 @@ export function useContactForm() {
     Partial<Record<keyof ContactFormData, string>>
   >({});
 
-  /** ❌ Agora valida apenas quando chamamos manualmente */
   const validate = (data: ContactFormData) => {
     const result = contactSchema.safeParse(data);
 
@@ -40,14 +39,12 @@ export function useContactForm() {
     return true;
   };
 
-  /** 🔹 Agora o change apenas troca o valor */
   const handleChange =
     (field: keyof ContactFormData) =>
     (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
       setValues((prev) => ({ ...prev, [field]: e.target.value }));
     };
 
-  /** 🔥 Valida aqui e só na submissão */
   const submit = async () => {
     if (!validate(values)) return false;
 
