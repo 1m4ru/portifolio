@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import { AppBar, Box, Toolbar, Typography, IconButton, Avatar } from "@mui/material";
 import { useThemeSwitch } from "@/app/design-system/providers/ThemeProvider";
 import LightModeIcon from "@mui/icons-material/LightMode";

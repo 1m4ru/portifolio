@@ -112,7 +112,6 @@ export default function ContactForm() {
     border: "1px solid rgba(255,255,255,0.1)",
     boxShadow: { md: "0 0 35px rgba(0,255,255,0.25)" },
 
-    // MOBILE TUNE
     "@media (max-width: 600px)": {
       backdropFilter: "blur(8px)",
       background: "rgba(255,255,255,0.02)",
