@@ -4,7 +4,6 @@
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=fff)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff)](https://www.typescriptlang.org/)
 [![Material UI](https://img.shields.io/badge/Material_UI-0081CB?style=flat&logo=mui&logoColor=fff)](https://mui.com/)
-[![Tailwind](https://img.shields.io/badge/Tailwind-38BDF8?style=flat&logo=tailwindcss&logoColor=fff)](https://tailwindcss.com/)
 [![React Query](https://img.shields.io/badge/React_Query-e535ab?style=flat&logo=reactquery&logoColor=fff)](https://tanstack.com/query)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-9B51E0?style=flat&logo=framer&logoColor=fff)](https://www.framer.com/motion/)
 [![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat)](https://zod.dev)
