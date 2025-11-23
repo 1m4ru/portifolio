@@ -10,7 +10,7 @@
 
 Portfólio pessoal desenvolvido para apresentar projetos, stack principal, identidade visual e experiência em interfaces modernas com foco em performance e UX.
 
-👉 **Live:** https://maruan-moussa.vercel.app  
+👉 **Live:** https://portifolio-sigma-jet-35.vercel.app/ 
 📍 Palhoça — SC  
 🔗 LinkedIn: https://www.linkedin.com/in/maruan-moussa  
 🐙 GitHub: https://github.com/1m4ru
