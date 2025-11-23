@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Maruan Moussa — Portfólio
 
-## Getting Started
+Portfólio pessoal desenvolvido para apresentar projetos, stack principal, identidade visual e experiência em interfaces modernas com foco em performance e UX.
 
-First, run the development server:
+👉 **Live:** https://maruan-moussa.vercel.app  
+📍 Palhoça — SC  
+🔗 LinkedIn: https://www.linkedin.com/in/maruan-moussa  
+🐙 GitHub: https://github.com/1m4ru
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tecnologias Principais
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 14** — Estrutura e renderização
+- **React 18** — Componentes e UI
+- **TypeScript** — Tipagem e arquitetura escalável
+- **Material UI + Custom Theme** — UI com identidade visual própria
+- **Framer Motion** — Animações fluídas
+- **Zod + RHF (em projetos)** — Validação quando aplicável
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎨 Conceito & Design
 
-To learn more about Next.js, take a look at the following resources:
+Layout minimalista com foco em:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- contraste e acessibilidade
+- animações suaves e não invasivas
+- responsividade total e UI clean
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+O objetivo não é apenas listar projetos, mas **comunicar posicionamento e identidade profissional**.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💼 Projetos Destacados
+
+Cada card no site inclui:
+
+- imagem + preview
+- descrição curta
+- tech stack usada
+- botões para GitHub e deploy
+
+Os projetos priorizam **código limpo, arquitetura modular, performance e UX real**.
+
+---
+
+## 📱 Responsividade
+
+- Design mobile-first
+- Testado em **iPhone, Android, Desktop UltraWide**
+- Navegação suave com scroll-behavior + âncoras
+
+---
+
+## 👨‍💻 Sobre o Autor
+
+**Maruan Moussa**  
+Desenvolvedor Front-End • UI/UX Enthusiast  
+📍 Palhoça — SC
+
+🔗 GitHub: https://github.com/1m4ru  
+🔗 LinkedIn: https://www.linkedin.com/in/maruan-moussa
+
+---
+
+## 📄 Licença
+
+Código aberto para estudo e evolução profissional.  
+MIT — uso livre.

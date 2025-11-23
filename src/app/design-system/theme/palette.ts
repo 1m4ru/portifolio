@@ -17,7 +17,7 @@ export const paletteLight: PaletteOptions = {
     main: "#00d678",
   },
   background: {
-    default: "#ffffff",
-    paper: "#f6f6f6",
+    default: "#f3f6ff",
+    paper: "rgba(255,255,255,0.5)",
   },
 };

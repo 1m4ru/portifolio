@@ -1,10 +1,9 @@
 import "./globals.css"
 import type { Metadata } from "next"
 import { AppThemeProvider } from "./design-system/providers/ThemeProvider"
-import { Header } from "@/components/Header"
 
 export const metadata: Metadata = {
-  title: "Portfólio do Maruan",
+  title: "Maruan Maruan",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -12,7 +11,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="pt-br" suppressHydrationWarning>
       <body>
       <AppThemeProvider>
-        <Header />
           {children}
         </AppThemeProvider>
       </body>

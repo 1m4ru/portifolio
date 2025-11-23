@@ -1,12 +1,17 @@
 "use client";
 
-import { Box} from "@mui/material";
+import { Box } from "@mui/material";
 import { useThemeSwitch } from "./design-system/providers/ThemeProvider";
 import { Hero } from "@/components/Hero";
-import { AboutMe } from "@/components/TechStack";
+import { AboutMe } from "@/components/About";
+import Projects from "@/components/Projects";
+import Divider from "./design-system/theme/divider";
+import ContactForm from "@/components/ContactForm";
+import Footer from "@/components/Footer";
+import { Header } from "@/components/Header";
 
 export default function Home() {
-  const { mode} = useThemeSwitch();
+  const { mode } = useThemeSwitch();
 
   return (
     <Box
@@ -27,19 +32,15 @@ export default function Home() {
         transition: "0.3s ease"
       }}
     >
-    <Hero />
-    <Box
-  sx={{
-    width: "80%",
-    height: "1px",
-    mx: "auto",
-    my: 12,
-    background: "linear-gradient(90deg, transparent, rgba(123,47,247,0.4), transparent)",
-    filter: "blur(0.5px)"
-  }}
-/>
-
-    <AboutMe />
+      <Header />
+      <Hero />
+      <Divider />
+      <AboutMe />
+      <Divider />
+      <Projects />
+      <Divider />
+      <ContactForm />
+      <Footer />
     </Box>
   );
 }
